@@ -22,3 +22,5 @@ tilda_assets
 .idea
 .pytest_cache
 venv
+env\
+env/

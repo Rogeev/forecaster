@@ -7,7 +7,7 @@ class db_time(db.Model):
     series_name = db.Column(db.String)
     timestamp = db.Column(db.DateTime, nullable=False)
     value = db.Column(db.Text, nullable=False)
-    created_date = db.Column(db.DateTime)
+    created_date = db.Column(db.DateTime, nullable=False)
 
     def __repr__(self):
         return "Print something important"
